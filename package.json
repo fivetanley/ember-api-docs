@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@ember/jquery": "^0.5.2",
-    "@ember/optional-features": "^0.6.3",
+    "@ember/optional-features": "^1.3.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-a11y-testing": "^0.5.4",
     "ember-anchor": "^1.0.3",
