@@ -1,10 +1,12 @@
-{{#es-header}}
-  {{search-input}}
-{{/es-header}}
+<EsHeader>
+  <SearchInput />
+</EsHeader>
+
 <main class="container margin-vertical-medium layout-grid">
   {{outlet}}
 </main>
-{{es-footer}}
+
+<EsFooter />
 
 {{!-- required by ember-cli-meta-tags --}}
-{{head-layout}}
+<HeadLayout />
