@@ -1,12 +1,12 @@
-{{#es-header}}
-  {{#es-navbar links=links}}
-    {{search-input}}
-  {{/es-navbar}}
-{{/es-header}}
-<main class="container">
+<EsHeader>
+  <SearchInput />
+</EsHeader>
+
+<main class="container margin-vertical-medium layout-grid">
   {{outlet}}
 </main>
-{{main-footer}}
+
+<EsFooter />
 
 {{!-- required by ember-cli-meta-tags --}}
-{{head-layout}}
+<HeadLayout />
