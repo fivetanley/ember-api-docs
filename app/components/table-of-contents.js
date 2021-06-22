@@ -1,9 +1,12 @@
 import Component from '@ember/component';
+import jQuery from 'jquery';
 
 export default Component.extend({
   actions: {
     toggle(type) {
-      this.$('ol.toc-level-1.' + type).slideToggle(200);
+      jQuery(this.element)
+        .find('ol.toc-level-1.' + type)
+        .slideToggle(200);
     },
   },
 });
